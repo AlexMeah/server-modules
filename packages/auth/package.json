@@ -1,0 +1,29 @@
+{
+  "name": "@alexmeah/auth",
+  "version": "0.0.1",
+  "description": "Auth",
+  "author": "Alex Meah <alexmeahdotcom@gmail.com>",
+  "homepage": "https://github.com/AlexMeah/server-modules#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexMeah/server-modules.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexMeah/server-modules/issues"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "shortid": "^2.2.14",
+    "uuid": "^3.3.2"
+  }
+}

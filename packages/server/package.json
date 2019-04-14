@@ -1,0 +1,30 @@
+{
+  "name": "@alexmeah/server",
+  "version": "0.0.1",
+  "description": "Base server",
+  "author": "Alex Meah <alexmeahdotcom@gmail.com>",
+  "homepage": "https://github.com/AlexMeah/server-modules#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexMeah/server-modules.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexMeah/server-modules/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.2.11"
+  }
+}
